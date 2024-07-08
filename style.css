@@ -1,0 +1,55 @@
+h1 {
+    color: blue;
+}
+table {
+   background-color: skyblue;
+    width: 600px;
+}
+table td,table th{
+    border: 1px solid rgb(88, 38, 38);
+    padding: 5px ;
+    text-align: left;
+    }
+table tr:hover{
+    background-color: aquamarine;
+}
+table .even{
+    background-color: darkslateblue;
+}
+table th{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+table td{
+        color: red;
+    text-transform: capitalize;
+}
+table {
+    empty-cells: hide;
+   /* border-spacing:30px 15px;*/
+   border-collapse: separate;
+}
+.imgUl{
+   /* list-style-image: url('star\ img.jpg');*/
+}
+.Rigister Your Intrest input{
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: aliceblue;
+}
+fieldset {
+    border: 2px solid black;
+    padding: 25 px;
+    margin: 20 px;
+    border-radius: 10 px;
+}
+legend {
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgb(207, 197, 207);
+    border-radius: 25px;
+    background-color: rgb(113, 144, 18);
+}
